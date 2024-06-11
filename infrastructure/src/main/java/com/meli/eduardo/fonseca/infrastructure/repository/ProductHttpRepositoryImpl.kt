@@ -5,6 +5,7 @@ import com.meli.eduardo.fonseca.domain.exception.Exceptions
 import com.meli.eduardo.fonseca.domain.repository.Repository
 import com.meli.eduardo.fonseca.infrastructure.datasource.remote.ProductApi
 import com.meli.eduardo.fonseca.infrastructure.mapper.toDomain
+import kotlinx.coroutines.delay
 import javax.inject.Inject
 
 class ProductHttpRepositoryImpl @Inject constructor(private val apiService: ProductApi) :

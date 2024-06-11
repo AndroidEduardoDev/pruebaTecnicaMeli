@@ -8,8 +8,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.meli.eduardo.fonseca.domain.entity.Category
 import com.meli.eduardo.fonseca.domain.usecase.Result
-import com.meli.eduardo.fonseca.pruebaTecnica.CategoryViewModel
-import com.meli.eduardo.fonseca.pruebaTecnica.ProductsViewModel
+import com.meli.eduardo.fonseca.pruebaTecnica.viewmodel.CategoryViewModel
+import com.meli.eduardo.fonseca.pruebaTecnica.viewmodel.ProductsViewModel
 import com.meli.eduardo.fonseca.pruebaTecnica.R
 import com.meli.eduardo.fonseca.pruebaTecnica.base.BaseFragment
 import com.meli.eduardo.fonseca.pruebaTecnica.databinding.FragmentSearchProductBinding

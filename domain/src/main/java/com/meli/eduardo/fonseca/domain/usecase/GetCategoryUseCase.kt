@@ -9,6 +9,7 @@ class GetCategoryUseCase @Inject constructor(private val repository: Repository<
     suspend operator fun invoke(): Result<List<Category>> {
         return try {
             Result.Loading
+            delay(2000)
             val products = repository.getAll(null)
             Result.Success(products)
         } catch (e: Exception) {

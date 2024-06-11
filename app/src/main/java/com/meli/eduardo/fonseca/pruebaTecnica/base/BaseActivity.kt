@@ -12,6 +12,7 @@ abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = getViewBinding()
+        supportActionBar?.hide()
         setContentView(binding.root)
     }
 

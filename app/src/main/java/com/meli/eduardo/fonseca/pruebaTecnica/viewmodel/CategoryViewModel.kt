@@ -1,4 +1,4 @@
-package com.meli.eduardo.fonseca.pruebaTecnica
+package com.meli.eduardo.fonseca.pruebaTecnica.viewmodel
 
 import javax.inject.Inject
 import kotlinx.coroutines.launch

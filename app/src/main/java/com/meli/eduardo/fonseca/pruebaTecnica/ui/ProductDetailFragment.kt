@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.activityViewModels
 import com.bumptech.glide.Glide
-import com.meli.eduardo.fonseca.pruebaTecnica.ProductsViewModel
+import com.meli.eduardo.fonseca.pruebaTecnica.viewmodel.ProductsViewModel
 import com.meli.eduardo.fonseca.pruebaTecnica.base.BaseFragment
 import com.meli.eduardo.fonseca.pruebaTecnica.databinding.FragmentProductDetailBinding
 import com.meli.eduardo.fonseca.pruebaTecnica.utils.setValue

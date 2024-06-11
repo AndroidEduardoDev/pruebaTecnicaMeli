@@ -76,6 +76,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.lottie)
+    implementation ("androidx.activity:activity-ktx:1.2.3")
+    implementation ("androidx.fragment:fragment-ktx:1.3.3")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
     implementation(project(":domain"))
     implementation(project(":infrastructure"))
 

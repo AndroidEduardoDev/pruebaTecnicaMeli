@@ -5,6 +5,7 @@ import com.meli.eduardo.fonseca.domain.exception.Exceptions
 import com.meli.eduardo.fonseca.domain.repository.Repository
 import com.meli.eduardo.fonseca.infrastructure.datasource.remote.CategoryApi
 import com.meli.eduardo.fonseca.infrastructure.mapper.toDomain
+import kotlinx.coroutines.delay
 import javax.inject.Inject
 
 class CategoryHttpRepositoryImpl @Inject constructor(private val apiService: CategoryApi) : Repository<Category>{
