@@ -27,8 +27,9 @@
 
 <img src="https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-domain-usecase-deps.png?hl=es-419" alt="Descripción de la imagen" width="600" >
 
+## Capturas
 
-
+<img src="./1m.jpg" alt="Descripción de la imagen" width="200" >
 
 ## Dependencias
 _androidx.core_
