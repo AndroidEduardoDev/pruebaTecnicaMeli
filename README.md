@@ -29,7 +29,7 @@
 
 ## Capturas
 
-<img src="./1m.jpg" alt="Descripción de la imagen" width="200" >
+<img src="./1m.png" alt="Descripción de la imagen" width="200" >
 
 ## Dependencias
 _androidx.core_
