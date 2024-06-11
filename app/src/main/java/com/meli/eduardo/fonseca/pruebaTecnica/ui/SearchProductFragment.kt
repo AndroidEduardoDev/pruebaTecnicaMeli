@@ -62,19 +62,9 @@ class SearchProductFragment : BaseFragment<FragmentSearchProductBinding>() {
             }
 
             override fun onQueryTextChange(newText: String): Boolean {
-                if (newText.isEmpty()){
-                    if (categoryViewModel.categories.value is Result.Success && productsViewModel.productSelected.value == null) {
-                        (categoryViewModel.categories.value as Result.Success<List<Category>>).data.random().let {
-                            productsViewModel.getAllProductsByCategory(it.name)
-                        }
-
-                    }
-                    hideKeyboard()
-                }
                 return true
             }
-
-        });
+        })
     }
 
     private fun observeViewModels() {
